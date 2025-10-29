@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Intelligent Enterprise Assistant</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div class="container">
+  <h1>Enterprise Assistant</h1>
+
+  <div id="login-section">
+    <input type="email" id="email" placeholder="Enter your email" />
+    <button id="send-otp-btn">Send OTP</button>
+  </div>
+
+  <div id="otp-section" style="display:none;">
+    <input type="text" id="otp" placeholder="Enter OTP" maxlength="6" />
+    <button id="verify-otp-btn">Verify OTP</button>
+  </div>
+
+  <div id="chat-section" style="display:none;">
+    <div id="chat-box"></div>
+    <form id="chat-form">
+      <input type="file" id="file-input" accept=".pdf" />
+      <input type="text" id="message-input" autocomplete="off" placeholder="Type your message..." />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

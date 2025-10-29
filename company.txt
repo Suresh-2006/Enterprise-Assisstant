@@ -1,0 +1,6 @@
+Company: TechCorp Pvt Ltd
+Leave Policy: Employees can take 12 casual leaves per year.
+Work From Home Policy: Allowed twice a week with manager approval.
+Dress Code: Formal wear Monday to Thursday, casuals on Friday.
+IT Support: Contact ITHelp@techcorp.com for issues.
+Employee Benefits: Health insurance, travel allowance, yearly bonus.
